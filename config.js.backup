@@ -1,0 +1,40 @@
+export const config = {
+    licenseKey: '3ad5b744-c7c9-498f-af02-f51b221051be',
+    mode: 'multi',
+    retries: 5,
+    accountDelay: { from: '00:00:00', to: '00:20:00' },
+    tasksDelay: { from: '00:00:03', to: '00:00:05' },
+    accountStartChance: 100,
+    extraProxyRotation: true,
+    proxyCheck: true,
+    password: '',
+    forceAnswer: null,
+    telegram: {
+        state: false,
+        chatId: 0,
+        botApikey: '',
+        notifications: {
+            onlyErrors: true,
+        },
+    },
+    refCodes: ['87950049'],
+    anySolverApiKey: '',
+    captchaProxy: '',
+    captcha: {
+        provider: 'OnyxSolver',
+        type: 'PopularCaptchaToken',
+        websiteURL: 'https://lobby.cambria.gg/',
+        websiteKey: 'b9fc5a50-2e5c-457a-9582-80ce342c2534',
+        pollIntervalMs: 2500,
+        solutionTimeoutMs: 5000000,
+    },
+    turnstileCaptcha: {
+        provider: 'EZCaptcha',
+        type: 'TurnstileTokenProxyLess',
+        websiteURL: 'https://lobby.cambria.gg/',
+        websiteKey: '0x4AAAAAAA2MCFecQyBsUnC7',
+        pageAction: 'wallet-connected-guard',
+        pollIntervalMs: 2500,
+        solutionTimeoutMs: 180000,
+    }
+}

@@ -1,0 +1,8 @@
+node_modules/
+logs/
+*.log
+walletsData.txt
+extraProxy.txt
+badProxy.txt
+db.json
+.env

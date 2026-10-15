@@ -1,0 +1,25 @@
+{
+  "name": "Cambria",
+  "version": "1.0.3",
+  "description": "",
+  "author": "",
+  "createdAt": "2025-09-09T13:00:00.000Z",
+  "updatedAt": "2025-09-09T13:00:00.000Z",
+  "minAppVersion": "1.0.3",
+  "blocked": false,
+  "dependencies": [],
+  "tags": [
+    "EVM",
+    "API",
+    "clean"
+  ],
+  "forceCleanConfig": false,
+  "changelog": [],
+  "choices": [
+    {
+      "name": "Register + Claim",
+      "value": 0,
+      "description": "Register + Claim"
+    }
+  ]
+}
